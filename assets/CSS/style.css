@@ -21,7 +21,7 @@ h1 {
     padding: 40px;
     width: 50%;
     font-size: 40px;
-    /* text-align: ; */
+    text-align:left;
    
 
 }
@@ -45,7 +45,7 @@ nav ul li{
 }
 
 nav ul li a {
-    font-size: 15px;
+    font-size: 20px;
     color:#fff;
 }
 
@@ -55,15 +55,16 @@ a {
     transition: color 0.3s ease;
 }
 a:hover {
-    color:darkseagreen; 
+    color:indianred; 
 }
 main {
 
 }
 
 .about-me-image {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
     width:200px;
     height:250px;
     border-radius: 10px;
@@ -71,30 +72,56 @@ main {
     box-shadow: 0 0 10px rgba (0,0,0,0.1);
 }
 
-#about, #work {
-display: flex;
+#about, #work, #resume {
+    display: flex;
 }
 
-#about h2{
+#about h2, #resume h2{
     flex: 10%;
+    color:#18558e;
+    font-size: 25px;
+    
 }
 
 #about p{
     flex: 70%;
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
 }
 
 
 #work h2{
-
+    color:#18558e;
+    font-size: 25px;
 }
 
 
 #resume {
 
 }
+/*Create and Style for challenge assignment links in the grid*/
+.project-grid {
+    display:grid;
+    gap: 15px;
+    margin-left: 100px;
+}
+.grid-item {
+    background-color:darkgrey;
+    width: 250px;
+    border: 10px solid #18558e;
+    border-radius: 15px;
+    padding: 10px;
 
+}
+.grid-item-one {
+    background-image: "MyPortfollio/assets/images/Screenshot 2024-02-29 at 3.56.01 PM.png ";
+    background-color:darkgray;
+    width: 250px;
+    border: 10px solid #18558e;
+    border-radius: 15px;
+    padding: 10px;
+}
+/*Aside section and styling separate of main for contact information*/
 aside {
     padding: 10px;
     background-color: #18558e;
