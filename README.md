@@ -3,6 +3,7 @@ A portfolio of my work that can showcase the skills and talents I have attained 
 
 Github Repository Link: https://github.com/bfbrandhorst/MyPortfollio
 
-Deployed Site Link: 
+Deployed Site Link: https://bfbrandhorst.github.io/MyPortfollio/
 
+[Preveiw image of Portfoio Website](../MyPortfollio/assets/images/deployed_webpage_image.png)
 
