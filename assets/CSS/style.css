@@ -55,11 +55,8 @@ a {
 a:hover {
     color:indianred; 
 }
-main {
 
-}
-
-/*Styling for 'about me' section*/
+/*Styling for 'about me', as well as headers for 'work' and 'reume' sections*/
 .about-me-image {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -107,12 +104,13 @@ main {
 .project-grid {
     display:flex;
     justify-content:center;
-    margin: 100px;
+    justify-content: space-evenly;
 }
 
 .grid-item {
     background-color:darkgrey;
     width: 250px;
+    height: 100px;
     border: 10px solid #18558e;
     border-radius: 15px;
     padding: 20px;
@@ -120,14 +118,15 @@ main {
 }
 
 .grid-item-one {
-    background-image: url(MyPortfollio/assets/Horiseon.png);
+    background-image: url(../Horiseon.png);
     background-size: cover;
     background-position: center;
-
-    width: 250px;
+    height: 150px;
+    width: 300px;
     border: 10px solid #18558e;
     border-radius: 15px;
     padding: 10px 20px;
+    margin-inline-start: 60px;
 }
 /*Aside section and styling separate of main for contact information*/
 aside {
@@ -147,8 +146,9 @@ aside li {
     font-weight: bold;
 }
 
-/*Responsive layout*/
+/*Responsive layout for smaller screen sizes*/
 @media screen and (max-width: 768px){
+    
     #about, #work, #resume{
         display:block;
     }
@@ -160,6 +160,8 @@ aside li {
     }
 
 }
-@media screen and (min-width: 769px) {
-
+@media screen and (max-width: 450px) {
+    .project-grid {
+        flex-direction: column;
+     }
 }
