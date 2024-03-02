@@ -3,7 +3,7 @@
 
 }
 
-
+/*Styling for body, header, and h1*/
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 8px;
@@ -22,14 +22,12 @@ h1 {
     width: 50%;
     font-size: 40px;
     text-align:left;
-   
+   }
 
-}
-
+   /*Styling for Nav items*/
 nav{
     width: 50%;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -61,6 +59,7 @@ main {
 
 }
 
+/*Styling for 'about me' section*/
 .about-me-image {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -97,30 +96,38 @@ main {
 }
 
 
-#resume {
-
+#resume p{
+    flex: 70%;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
 }
+
 /*Create and Style for challenge assignment links in the grid*/
 .project-grid {
-    display:grid;
-    gap: 15px;
-    margin-left: 100px;
+    display:flex;
+    justify-content:center;
+    margin: 100px;
 }
+
 .grid-item {
     background-color:darkgrey;
     width: 250px;
     border: 10px solid #18558e;
     border-radius: 15px;
-    padding: 10px;
-
+    padding: 20px;
+    margin-inline-start: 60px;
 }
+
 .grid-item-one {
-    background-image:url();
-    background-color:darkgray;
+    background-image: url(MyPortfollio/assets/Horiseon.png);
+    background-size: cover;
+    background-position: center;
+
     width: 250px;
     border: 10px solid #18558e;
     border-radius: 15px;
-    padding: 10px;
+    padding: 10px 20px;
 }
 /*Aside section and styling separate of main for contact information*/
 aside {
