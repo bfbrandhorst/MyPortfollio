@@ -86,7 +86,8 @@ main {
 #about p{
     flex: 70%;
     margin: 10px;
-    padding: 30px;
+    padding: 80px;
+    text-align: center;
 }
 
 
@@ -114,7 +115,7 @@ main {
 
 }
 .grid-item-one {
-    background-image: "MyPortfollio/assets/images/Screenshot 2024-02-29 at 3.56.01 PM.png ";
+    background-image:url();
     background-color:darkgray;
     width: 250px;
     border: 10px solid #18558e;
@@ -138,20 +139,20 @@ aside li {
     color:#fff;
     font-weight: bold;
 }
-/* @media screen and (max-width: 425px ) {
-    #about, #work{
+
+/*Responsive layout*/
+@media screen and (max-width: 768px){
+    #about, #work, #resume{
+        display:block;
+    }
+    header{
         display: block;
     }
-} */
-
-@media screen and (max-width: 700px ) and (min-width: 500px){
-    #about, #work{
-        display: block;
+    nav{
+        display:flex;
     }
 
-    /* #about p{
-        color: yellow;
-    } */
 }
+@media screen and (min-width: 769px) {
 
-
+}
